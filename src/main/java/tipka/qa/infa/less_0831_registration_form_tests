@@ -1,10 +1,8 @@
-package tipka.qa.wh_01_registration_form_tests;
+package tipka.qa.less_0831_registration_form_tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
-import java.io.File;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.byText;
@@ -74,7 +72,7 @@ public class RegistrationFrmTests {
 //        aria-label="Choose Tuesday, August 28th, 2007"
         // Subjects
 
-        //  
+        //
 
         //  Subject. Context-sensitive value submission
         $("#subjectsInput").setValue(subjectOne).pressEnter();
