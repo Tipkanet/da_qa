@@ -7,15 +7,6 @@ repositories {
     mavenCentral()
 }
 
-allure {
-    version = "2.15.0"
-    autoconfigure = true
-
-    useJUnit5 {
-        version = "2.15.0"
-    }
-}
-
 dependencies {
     testImplementation(
             'org.assertj:assertj-core:3.21.0',
